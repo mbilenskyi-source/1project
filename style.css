@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.menu {
+    display: flex;          /* Включает Flexbox, элементы выстраиваются в строку по умолчанию */
+    list-style: none;       /* Убираем точки списка (как мы обсуждали ранее) */
+    padding: 0;             /* Удаляем стандартный внутренний отступ браузера */
+    margin: 0;              /* Удаляем внешние отступы */
+    gap: 20px; /* Добавит ровно 20 пикселей «воздуха» между всеми пунктами меню */
+    justify-content: center; /* Центрирует пункты меню по горизонтали */
+    
+}
+
+header {
+    background-color: #1e293b;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0 30px;
+    background-color: #a09b9b;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style: none; /* Убирает точки/маркеры списка */
+    padding-left: 0;  /*иногда у списков есть стандартный отступ слева, сбрасываем его */
+}
+
+nav a {
+    text-decoration: none; /* Убирает подчеркивание */
+    color: inherit;        /* (Опционально) чтобы ссылки не меняли цвет на стандартный синий */
+}
+
+a {
+    color: #000000;
+}
+
+h2 {
+    color: #2563eb;
+}
+
+footer {
+    background-color: #1e293b;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
